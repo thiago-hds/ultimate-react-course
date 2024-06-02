@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { useQuiz } from '../context/QuizContext';
 
 function formatTime(seconds) {
 	return `${Math.floor(seconds / 60)}:${seconds % 60 < 10 ? '0' : ''}${
@@ -6,7 +7,8 @@ function formatTime(seconds) {
 	}`;
 }
 
-function Timer({ dispatch, secondsRemaining }) {
+function Timer() {
+	const { dispatch, secondsRemaining } = useQuiz();
 	const formatedTime = formatTime(secondsRemaining);
 
 	useEffect(() => {
