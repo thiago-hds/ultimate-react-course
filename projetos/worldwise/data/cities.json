@@ -59,6 +59,42 @@
         "lat": "42.55712670332118",
         "lng": "0.5493164062500001"
       }
+    },
+    {
+      "id": "ca2e",
+      "cityName": "Almeida",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2024-06-04T20:33:47.568Z",
+      "notes": "",
+      "position": {
+        "lat": "40.61603737424187",
+        "lng": "-6.829376220703126"
+      }
+    },
+    {
+      "id": "28da",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-06-04T20:58:52.645Z",
+      "notes": "",
+      "position": {
+        "lat": "40.005527759160515",
+        "lng": "-0.005836486816406251"
+      }
+    },
+    {
+      "id": "33ea",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-06-04T21:53:15.475Z",
+      "notes": "",
+      "position": {
+        "lat": "39.99895296270605",
+        "lng": "0.004634857177734376"
+      }
     }
   ]
 }
